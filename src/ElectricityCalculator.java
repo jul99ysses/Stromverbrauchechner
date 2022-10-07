@@ -11,7 +11,8 @@ public class ElectricityCalculator {
         int sqm = scanner.nextInt();
         System.out.println("Bitte geben Sie an, wieviele Personen in Ihrem Haushalt leben:");
         int persons = scanner.nextInt();
-        System.out.println("Bitte geben Sie an, wie viele Elektrogeräte Sie besitzen. Dazu zählen unter anderem Herd, Waschmaschine und Geschirrspüler.");
+        System.out.println("Bitte geben Sie an, wie viele Elektrogeräte Sie besitzen.");
+        System.out.println("Dazu zählen unter anderem Herd, Waschmaschine und Geschirrspüler.");
         int machines = scanner.nextInt();
         System.out.printf("Der durchschnittliche Energieverbrauch beträgt %d kwh/Jahr.", getElectricityUsage(persons,sqm,machines));
     }
